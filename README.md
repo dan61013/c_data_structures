@@ -6,6 +6,7 @@
   - [參考資源](#參考資源)
   - [Lecture 1 C Pointer Variable](#lecture-1-c-pointer-variable)
     - [1-1 Declaration](#1-1-declaration)
+    - [1-2 Structure](#1-2-structure)
 
 ---
 
@@ -44,6 +45,9 @@
 |形式|值|解釋|
 |-|-|-|
 |`b`|`a`的記憶體位置||
-|`*b`|`a`值|因為`*`指向變數`a`|
+|`*b`|`a`值|因為`*`指向`b`的數值(也就是`a`的記憶體位置)|
 |`&b`|`b`的記憶體位置||
 |`*&a`|`a`值|因為`&a`取得`a`的記憶體位置，再用`*`取得該記憶體位置的值|
+
+### 1-2 Structure
+
