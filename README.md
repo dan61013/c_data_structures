@@ -51,3 +51,11 @@
 
 ### 1-2 Structure
 
+* [語法](lecture1/1-2.c)
+  ```c
+    struct Bboy {
+        char name[50];
+        int age;
+    };
+  ```
+* 
